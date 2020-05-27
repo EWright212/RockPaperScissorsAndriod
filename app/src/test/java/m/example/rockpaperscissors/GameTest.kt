@@ -1,23 +1,11 @@
 package m.example.rockpaperscissors
 
-
-
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-//import org.junit.Assert.assertEquals
-
     class GameTest {
-//    @Test
-//    fun `computer move`() {
-//        val newGame = Game(Player(),Player())
-//
-//        //Mock random move
-//        val output = newGame.computerMove(RandomMove(newGame.listOfMoves).main())
-//        assertEquals("Rock", output)
-//    }
 
         @Test
         fun `calculate winner - Rock beats Scissors p1 Wins`() {
@@ -108,4 +96,5 @@ import org.junit.Test
             assertEquals("Draw", output)
 
 
+        }
     }
