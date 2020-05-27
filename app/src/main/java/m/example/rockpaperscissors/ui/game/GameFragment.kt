@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import m.example.rockpaperscissors.R
 import m.example.rockpaperscissors.R.layout.game_fragment
 
@@ -22,6 +23,8 @@ class GameFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         return inflater.inflate(game_fragment, container, false)
+
+
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
